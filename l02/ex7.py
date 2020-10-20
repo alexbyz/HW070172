@@ -1,4 +1,4 @@
-#exercise 1
+#exercise 7
 def main():
 
     print("Chaotic Function")

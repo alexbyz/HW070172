@@ -1,12 +1,13 @@
 #convert.py
-#converts a temperature from Fahrenheit to Celsius - because other than in the textbook I cant deal with °F :)
+#prints °C and °F from 0 to 100°C all 10°septs
 #by Alexander Huber
+#ex5
 
 def main():
-    print("this programm converts a Temperatur given in °F into °C 5 times")
-    for i in range(5):
-        tempFa = eval(input("Enter a temperature in °F: "))
-        tempCe = (tempFa - 32) * 5/9   
+    print("this programm prints temp from 0°C to 100°C in 10° septs")
+    for i in range(11):
+        tempCe = i * 10
+        tempFa = tempCe * 9/5 +32
         print(tempFa,"°F equals to: ", tempCe,"°C")
     input("press any key to end the program\n")
     

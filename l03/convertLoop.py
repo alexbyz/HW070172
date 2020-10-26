@@ -1,6 +1,7 @@
 #convert.py
 #converts a temperature from Fahrenheit to Celsius - because other than in the textbook I cant deal with °F :)
 #by Alexander Huber
+#ex4
 
 def main():
     print("this programm converts a Temperatur given in °F into °C 5 times")

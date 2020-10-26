@@ -1,4 +1,4 @@
-#convert.py
+#convertLoop.py
 #converts a temperature from Fahrenheit to Celsius - because other than in the textbook I cant deal with °F :)
 #by Alexander Huber
 #ex4

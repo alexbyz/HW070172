@@ -1,4 +1,4 @@
-#convert.py
+#convertTable.py
 #prints °C and °F from 0 to 100°C all 10°septs
 #by Alexander Huber
 #ex5

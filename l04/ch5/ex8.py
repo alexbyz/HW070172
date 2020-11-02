@@ -1,4 +1,4 @@
-#ex 7 ch 5
+#ex 8 ch 5
 #ceasar chipher
 
 def main():
@@ -7,9 +7,10 @@ def main():
     key = int(input("Key: "))
 
     newN =""
+    abc = "abcdefghijklmnopqrstuvwxyz"
 
     for ch in name:  
-        newN = newN + chr((ord(ch)+key))  
+        newN = newN + abc[(ord(ch)-97) + (key % 52)] 
 
     print(newN)              
 

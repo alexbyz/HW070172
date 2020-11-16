@@ -1,0 +1,14 @@
+@online{2016,
+  title = {R},
+  date = {2016-09-02T11:48:35+00:00},
+}
+
+@book{AbbottStudies1957,
+  title = {Studies in {{Arabic}} Literary Papyri: {{I}}. {{Historical Texts}}},
+  author = {Abbott, Nabia},
+}
+
+@book{AbbottStudies1967,
+  title = {Studies in {{Arabic}} Literary Papyri: {{II}}. {{Qurānic}} Commentary and Tradition},
+  author = {Abbott, Nabia},
+}

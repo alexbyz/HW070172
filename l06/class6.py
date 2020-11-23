@@ -9,16 +9,15 @@ recordIdealtype = {
     "location": "location"
 }
 
-record = {}
-
 def readFile():     #reads in the file
     infile = input("inputfile: ")
     infile = open(infile, "r", encoding="UTF-8")
     
     data =""    #string to read the file into
 
-    for line in infile:
-        data = data + line
+    #for line in infile:
+    #    data = data + line
+    date = infile.read()
     return data
 
 def getRecords(inString):    #splits the long string along '\n@'
@@ -29,10 +28,11 @@ def main():
     data = readFile()
     records = getRecords(data)    
     
-    for i in range(len(records)):   #loops throug the records   
-
-        entry = records[i].split(',\n')
-        #print(entry)
+    #for i in range(len(records)):   #loops throug the records 
+    for record in records[1:]:
+        input(record)
+        entry = records[i].split('\n')
+        print(entry)
         firstEntry = entry[0].split('{')
         recordType = firstEntry[0].strip()
         citationKey = firstEntry[1].strip()
